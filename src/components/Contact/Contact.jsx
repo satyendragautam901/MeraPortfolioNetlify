@@ -27,7 +27,7 @@ function Contact({ isDarkMode }) {
   return (
     <div
     
-      className={`min-h-screen flex mt-16 flex-col items-center p-8 ${isDarkMode ? "bg-gray-900 text-white" : "bg-gray-50 text-black"}`}
+      className={`min-h-screen flex  flex-col items-center p-8 ${isDarkMode ? "bg-gray-900 text-white" : "bg-gray-50 text-black"}`}
     >
       <h2 className="text-3xl font-bold mb-8">Contact</h2>
       <div className={`w-full max-w-2xl  rounded-lg p-6 ${isDarkMode?"bg-gray-900 text-white border":"bg-white border text-black shadow-lg"}`}>
