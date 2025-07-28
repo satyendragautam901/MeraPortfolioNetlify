@@ -1,12 +1,70 @@
-# React + Vite
+# 💼 Personal Portfolio - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my **personal developer portfolio** built using **React** and **Vite**. It showcases my skills, projects, experience, and contact information in a clean, responsive, and modern UI. The project includes dark mode support and mobile responsiveness.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 [Visit Live Site](https://developersatyendragautam01.netlify.app/)  
+<!-- 🔗 *(Replace with your actual Netlify or Vercel deployment link)* -->
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS
+- **Icons:** Lucide React
+- **Routing:** React Router DOM
+- **Deployment:** Netlify
+
+---
+
+## 📱 Features
+
+- 📌 **Fully Responsive Design** – Mobile, tablet, and desktop-friendly layout.
+- 🌙 **Dark Mode Toggle** – Easily switch between light and dark themes.
+- 🧭 **Intuitive Navigation** – Smooth routing with tooltip-based navbar.
+- 🧠 **Modular Codebase** – Organized components and pages.
+- 💡 **Minimal and Clean UI** – Focused on content and readability.
+
+---
+
+## 📂 Folder Structure
+```
+meraportfolio/
+├── public/
+├── src/
+│ ├── components/ (All components organized)
+│ ├── assets/ # Images and static resources
+│ ├── App.jsx
+│ └── main.jsx
+├── index.html
+├── tailwind.config.js
+└── vite.config.js
+
+```
+
+---
+
+## 🔧 Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/satyendragautam901/MeraPortfolioNetlify.git
+   cd MeraPortfolioNetlify
+
+
+2. **Install Dependencies**
+
+    ```
+    npm install
+
+3. **Start Development Server**
+
+    ```
+    npm run dev
+
+4. **Build for Production**
+
+    ```
+    npm run build
+
